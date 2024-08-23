@@ -10,7 +10,7 @@ public class BodyofWater {
         avgDepth = ad;
         isSaltWater = sw;
     }
-
+    
     public BodyofWater(String n, double ad){
         name = n;
         avgDepth = ad;
