@@ -41,28 +41,12 @@ public class BodyofWater {
         largestDiameter = ld;
     }
 
-    //instances using each constructor
-    public static void main(String[] args) {
-        BodyOfWater a = new BodyOfWater("Michigan", 118, 60, true);
-        BodyofWater b = new BodyofWater("Tahoe", 22, 15, false);
-        
-        a.setName("Michigan");
-        a.setlargestDiameter(118);
+    public void setavgDepth(double ad){
+        avgDepth = ad;
+    }
 
-        b.setName("Tahoe");
-        b.setlargestDiameter(22);
-
-        System.out.println(a.getName());
-        System.out.println(b.getName());
-        System.out.println(a.getlargestDiameter());
-        System.out.println(b.getlargestDiameter());
-        System.out.println(a.getavgDepth());
-        System.out.println(b.avgDepth());
-        System.out.println(a.getisSaltWater());
-        System.out.println(b.getisSaltWater());
-
-        a.setName("Superior");
-        System.out.println(a.getName());
+    public void isSaltWater(boolean sw){
+        isSaltWater = sw;
     }
 
 }
